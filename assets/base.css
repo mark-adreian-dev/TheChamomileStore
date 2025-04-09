@@ -3611,8 +3611,9 @@ p {
   .banner__text > p {
     width: 70% !important;
   }
+
+  .card__heading > a{
+  font-size: 4rem !important;
+  }
 }
 
-.card__heading > a{
-  font-size: 4rem;
-}
