@@ -3596,6 +3596,9 @@ details-disclosure > details {
   }
 }
 
+
+
+/* CUSTOMIZATION */
 .banner__buttons .banner__button:nth-child(2) {
     display: none !important;
 }
@@ -3608,4 +3611,8 @@ p {
   .banner__text > p {
     width: 70% !important;
   }
+}
+
+.card__heading > a{
+  font-size: 4rem;
 }
