@@ -85,6 +85,49 @@
         "padding_bottom": 64
       }
     },
+    "multicolumn_GiXzGh": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_VXeWdm": {
+          "type": "column",
+          "settings": {
+            "title": "Mission",
+            "text": "<p>To provide a superb combination of finest beans, savory pastries, and exquisite floral arrangements while upholding an unparalleled customer service and craftsmanship standard. We are committed to establishing a welcoming oasis where the beauty of nature and the warmth of community converge through exceptional coffee, pastries, and flowers that inspire moments of joy and connection. We actively contribute to the growth of our community through innovative partnerships and philanthropic efforts, and we are dedicated to sustainability, ensuring our operations have a minimal impact on the environment.<br/><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JfVhWb": {
+          "type": "column",
+          "settings": {
+            "title": "Vision",
+            "text": "<p>To build a comfortable environment that effortlessly combines the art of coffee and floristry to boost the customer experience. We aspire to be the heart of our community, renowned for enriching lives via the perfect balance of floral elegance, gourmet pastries, and coffee craftsmanship. Ultimately, we aim to set the industry standard by supporting sustainability, boosting local economic growth, and promoting meaningful community initiatives. Through innovation and genuine effort, we seek to establish a brand representing excellence, community commitment, and transforming customer experiences.<br/><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_VXeWdm",
+        "column_JfVhWb"
+      ],
+      "settings": {
+        "title": "Mission & Vision",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -195,6 +238,7 @@
   "order": [
     "image_banner_kJ9wFV",
     "featured_collection",
+    "multicolumn_GiXzGh",
     "collage",
     "video",
     "multicolumn"
