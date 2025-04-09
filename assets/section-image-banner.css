@@ -490,3 +490,8 @@
     color: currentColor;
   }
 }
+
+.banner:after,
+.banner__media:after {
+  background: white !important;
+}
