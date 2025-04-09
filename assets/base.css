@@ -3597,7 +3597,7 @@ details-disclosure > details {
 }
 
 .banner__buttons .banner__button:nth-child(2) {
-    display: none;
+    display: none !important;
 }
 
 p {
