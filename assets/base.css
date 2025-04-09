@@ -3606,6 +3606,6 @@ p {
 
 @media (min-widht: 990px) {
   .banner__text > p {
-    width: 40%;
+    width: 40% !important;
   }
 }
