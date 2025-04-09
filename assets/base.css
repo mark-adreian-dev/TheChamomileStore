@@ -3603,9 +3603,3 @@ details-disclosure > details {
 p {
   color: white;
 }
-
-@media (min-widht: 990px) {
-  .banner__text > p {
-    width: 40% !important;
-  }
-}
