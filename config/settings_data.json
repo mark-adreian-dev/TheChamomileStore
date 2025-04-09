@@ -137,7 +137,7 @@
     },
     "content_for_index": [],
     "color_schemes": {
-      "scheme-1": {
+      "Navbar": {
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
