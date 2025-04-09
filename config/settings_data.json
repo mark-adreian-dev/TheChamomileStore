@@ -139,9 +139,9 @@
     "color_schemes": {
       "scheme-navbar": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#12372a",
           "background_gradient": "",
-          "text": "#121212",
+          "text": "#e3b15a",
           "button": "#121212",
           "button_label": "#ffffff",
           "secondary_button_label": "#121212",
