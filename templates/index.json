@@ -91,6 +91,7 @@
         "column_VXeWdm": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/The_Chamomile_Logo.png",
             "title": "Mission",
             "text": "<p>To provide a superb combination of finest beans, savory pastries, and exquisite floral arrangements while upholding an unparalleled customer service and craftsmanship standard. We are committed to establishing a welcoming oasis where the beauty of nature and the warmth of community converge through exceptional coffee, pastries, and flowers that inspire moments of joy and connection. We actively contribute to the growth of our community through innovative partnerships and philanthropic efforts, and we are dedicated to sustainability, ensuring our operations have a minimal impact on the environment.<br/><br/></p>",
             "link_label": "",
@@ -100,6 +101,7 @@
         "column_JfVhWb": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/The_Chamomile_Logo_Solid.png",
             "title": "Vision",
             "text": "<p>To build a comfortable environment that effortlessly combines the art of coffee and floristry to boost the customer experience. We aspire to be the heart of our community, renowned for enriching lives via the perfect balance of floral elegance, gourmet pastries, and coffee craftsmanship. Ultimately, we aim to set the industry standard by supporting sustainability, boosting local economic growth, and promoting meaningful community initiatives. Through innovation and genuine effort, we seek to establish a brand representing excellence, community commitment, and transforming customer experiences.<br/><br/></p>",
             "link_label": "",
@@ -112,9 +114,9 @@
         "column_JfVhWb"
       ],
       "settings": {
-        "title": "Mission & Vision",
+        "title": "",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "button_label": "",
         "button_link": "",
