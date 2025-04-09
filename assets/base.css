@@ -3599,6 +3599,10 @@ details-disclosure > details {
 
 
 /* CUSTOMIZATION */
+.multicolumn-card__info .inline-richtext {
+    font-size:4rem !important;
+}
+
 .banner__buttons .banner__button:nth-child(2) {
     display: none !important;
 }
