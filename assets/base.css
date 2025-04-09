@@ -3600,3 +3600,6 @@ details-disclosure > details {
     display: none;
 }
 
+p {
+  color: white;
+}
