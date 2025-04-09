@@ -15,14 +15,14 @@
         "heading_9AJPQd": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
+            "heading": "The Chamomile",
+            "heading_size": "hxxl"
           }
         },
         "text_NT8HUA": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Step into our little oasis, where every visit is a chance to relax, refresh, and reconnect with the simple joys of life. Welcome to The Chamomile – your haven of tranquility.",
             "text_style": "body"
           }
         },
@@ -44,12 +44,13 @@
         "buttons_HrmEcA"
       ],
       "settings": {
-        "image_overlay_opacity": 0,
+        "image": "shopify://shop_images/slideshow-3.jpg",
+        "image_overlay_opacity": 50,
         "image_height": "medium",
         "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
+        "desktop_content_position": "bottom-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
         "color_scheme": "",
         "stack_images_on_mobile": true,
         "mobile_content_alignment": "center",
