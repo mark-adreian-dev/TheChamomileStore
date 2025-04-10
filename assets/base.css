@@ -3665,3 +3665,7 @@ p {
 .button:hover {
   border: 2px solid #12372a;
 }
+
+.button {
+  border: var(--color-button-text) !important; 
+}
