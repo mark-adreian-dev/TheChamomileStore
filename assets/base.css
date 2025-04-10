@@ -3661,7 +3661,6 @@ p {
 
 .button:hover::after{
   box-shadow: none;
-  border: none;
 }
 
 .button:hover {
