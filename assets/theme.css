@@ -691,6 +691,6 @@ li .header-nav-link:hover {
 select {
   background-color: #12372a !important;
 }
-option {
+select > option {
   padding: 24px !important;
 }
