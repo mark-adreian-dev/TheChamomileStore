@@ -9,7 +9,6 @@
       "Courier New", monospace;
     --color-white: #fff;
     --spacing: 0.25rem;
-    --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
@@ -253,11 +252,11 @@
   .w-\[80\%\] {
     width: 80%;
   }
-  .flex-shrink {
-    flex-shrink: 1;
+  .w-\[300px\] {
+    width: 300px;
   }
-  .flex-grow {
-    flex-grow: 1;
+  .w-full {
+    width: 100%;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -295,6 +294,12 @@
   .\!bg-branding-yellow {
     background-color: var(--color-branding-yellow) !important;
   }
+  .\!p-\[24px\] {
+    padding: 24px !important;
+  }
+  .p-\[24px\] {
+    padding: 24px;
+  }
   .p-\[50px\] {
     padding: 50px;
   }
@@ -323,10 +328,6 @@
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
-  .ring {
-    --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
@@ -342,10 +343,6 @@
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter;
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
     transition-duration: var(--tw-duration, var(--default-transition-duration));
-  }
-  .ease-in-out {
-    --tw-ease: var(--ease-in-out);
-    transition-timing-function: var(--ease-in-out);
   }
   .desktop\:bottom-\[0\] {
     @media (width >= 990px) {
@@ -415,6 +412,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 li .header-nav-link:hover {
   text-decoration: none !important;
+}
+select {
+  background-color: #12372a !important;
+}
+select > option {
+  padding: 10px;
 }
 @property --tw-rotate-x {
   syntax: "*";
@@ -569,10 +572,6 @@ li .header-nav-link:hover {
   syntax: "*";
   inherits: false;
 }
-@property --tw-ease {
-  syntax: "*";
-  inherits: false;
-}
 @property --tw-translate-x {
   syntax: "*";
   inherits: false;
@@ -625,7 +624,6 @@ li .header-nav-link:hover {
       --tw-drop-shadow-color: initial;
       --tw-drop-shadow-alpha: 100%;
       --tw-drop-shadow-size: initial;
-      --tw-ease: initial;
       --tw-translate-x: 0;
       --tw-translate-y: 0;
       --tw-translate-z: 0;
