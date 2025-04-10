@@ -3655,7 +3655,6 @@ p {
 
 .button::after{
   box-shadow: none !important;
-  border: none !important;
 }
 
 
