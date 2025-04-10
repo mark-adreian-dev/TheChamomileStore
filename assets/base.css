@@ -3627,7 +3627,7 @@ details-disclosure > details {
 
 
 /* CUSTOMIZATION */
-/* .multicolumn-card__info .inline-richtext {
+.multicolumn-card__info .inline-richtext {
     font-size:4rem !important;
 }
 
