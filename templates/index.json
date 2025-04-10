@@ -9,80 +9,230 @@
  */
 {
   "sections": {
-    "image_banner_kJ9wFV": {
-      "type": "image-banner",
+    "slideshow_kz4h9E": {
+      "type": "slideshow",
       "blocks": {
-        "heading_9AJPQd": {
-          "type": "heading",
+        "slide_MWwyfT": {
+          "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/slideshow-2.jpg",
+            "image_overlay_opacity": 50,
             "heading": "The Chamomile",
-            "heading_size": "hxxl"
+            "heading_size": "hxxl",
+            "subheading": "Step into our little oasis, where every visit is a chance to relax, refresh, and reconnect with the simple joys of life. Welcome to The Chamomile – your haven of tranquility.",
+            "button_label": "Order now",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "bottom-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-730b387f-0ae5-4059-8897-b9dfe8bbdf29"
           }
         },
-        "text_NT8HUA": {
-          "type": "text",
+        "slide_xrQQgn": {
+          "type": "slide",
           "settings": {
-            "text": "Step into our little oasis, where every visit is a chance to relax, refresh, and reconnect with the simple joys of life. Welcome to The Chamomile – your haven of tranquility.",
-            "text_style": "body"
+            "image": "shopify://shop_images/slideshow-1.jpg",
+            "image_overlay_opacity": 50,
+            "heading": "Sliced Cheesecake",
+            "heading_size": "hxxl",
+            "subheading": "",
+            "button_label": "Order now",
+            "link": "shopify://collections/sliced-cheesecakes",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "bottom-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-730b387f-0ae5-4059-8897-b9dfe8bbdf29"
           }
         },
-        "buttons_HrmEcA": {
-          "type": "buttons",
+        "slide_hyRLBi": {
+          "type": "slide",
           "settings": {
-            "button_label_1": "Order now",
-            "button_link_1": "#",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "#",
-            "button_style_secondary_2": false
+            "image": "shopify://shop_images/slideshow-4.jpg",
+            "image_overlay_opacity": 50,
+            "heading": "Bento Cheesecake",
+            "heading_size": "hxxl",
+            "subheading": "",
+            "button_label": "Order now",
+            "link": "shopify://collections/bento-cheesecakes",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "bottom-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-730b387f-0ae5-4059-8897-b9dfe8bbdf29"
+          }
+        },
+        "slide_wmHcAz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/slideshow-3.jpg",
+            "image_overlay_opacity": 50,
+            "heading": "Croffles Collection",
+            "heading_size": "hxxl",
+            "subheading": "",
+            "button_label": "Order now",
+            "link": "shopify://collections/croffles-collection",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "bottom-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-730b387f-0ae5-4059-8897-b9dfe8bbdf29"
           }
         }
       },
       "block_order": [
-        "heading_9AJPQd",
-        "text_NT8HUA",
-        "buttons_HrmEcA"
+        "slide_MWwyfT",
+        "slide_xrQQgn",
+        "slide_hyRLBi",
+        "slide_wmHcAz"
       ],
       "settings": {
-        "image": "shopify://shop_images/banner-image.jpg",
-        "image_overlay_opacity": 50,
-        "image_height": "medium",
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
         "image_behavior": "none",
-        "desktop_content_position": "bottom-left",
-        "desktop_content_alignment": "left",
-        "show_text_box": false,
-        "color_scheme": "scheme-730b387f-0ae5-4059-8897-b9dfe8bbdf29",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "all",
-        "products_to_show": 8,
-        "title": "Croffles",
+        "collection": "bento-cheesecakes",
+        "products_to_show": 4,
+        "title": "Bento Cheesecakes",
+        "heading_size": "h0",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": true,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "navbar-scheme",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 52
+      }
+    },
+    "featured_collection_eDTHHK": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "croffles-collection",
+        "products_to_show": 4,
+        "title": "Croffles Pantry",
         "heading_size": "h0",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "columns_desktop": 4,
         "enable_desktop_slider": false,
-        "full_width": false,
+        "full_width": true,
         "show_view_all": false,
         "view_all_style": "solid",
-        "color_scheme": "scheme-1",
+        "color_scheme": "",
         "image_ratio": "portrait",
         "image_shape": "default",
-        "show_secondary_image": true,
+        "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "none",
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "collection_FmNAxg": {
+          "type": "collection",
+          "settings": {
+            "collection": "bouquets"
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "coffee"
+          }
+        },
+        "collection-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "pastries"
+          }
+        }
+      },
+      "block_order": [
+        "collection_FmNAxg",
+        "collection-1",
+        "collection-0"
+      ],
+      "settings": {
+        "heading": "Things we offer",
+        "heading_size": "hxl",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-1",
         "padding_top": 100,
-        "padding_bottom": 64
+        "padding_bottom": 100
+      }
+    },
+    "rich_text_DEXCeQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nmjQnz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Take small break",
+            "heading_size": "h0"
+          }
+        },
+        "text_KaVa76": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to The Chamomile, where the beauty of nature meets the warmth of a cozy café. Nestled in the heart of Cabuyao, our café is a serene retreat designed to offer you a peaceful escape from the hustle of everyday life<br/><br/></p>"
+          }
+        },
+        "caption_PXVXAJ": {
+          "type": "caption",
+          "settings": {
+            "caption": "\"In the heart of every bloom lies a moment of peace.\"",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nmjQnz",
+        "text_KaVa76",
+        "caption_PXVXAJ"
+      ],
+      "settings": {
+        "desktop_content_position": "right",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "multicolumn_GiXzGh": {
@@ -121,128 +271,105 @@
         "button_label": "",
         "button_link": "",
         "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
+        "column_alignment": "center",
+        "background_style": "primary",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 64,
-        "padding_bottom": 64
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
-    "collage": {
-      "type": "collage",
+    "rich_text_FncpmA": {
+      "type": "rich-text",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "heading_zKmrc4": {
+          "type": "heading",
           "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
+            "heading": "Sweet Offerings",
+            "heading_size": "h0"
           }
         }
       },
       "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
+        "heading_zKmrc4"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
+    "multirow_ne8apr": {
+      "type": "multirow",
       "blocks": {
-        "column1": {
-          "type": "column",
+        "row_iqHGQN": {
+          "type": "row",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/slideshow-1.jpg",
+            "caption": "",
+            "heading": "Sliced Cheesecakes",
+            "text": "<p><br/>The Chamomile's Sliced Cheesecake is a assortment of mouth watering cheesecakes, each slice offering a unique and indulgent flavor experience. every slice is a bite of pure bliss. <br/><br/></p>",
+            "button_label": "See More",
+            "button_link": "shopify://collections/sliced-cheesecakes"
           }
         },
-        "column2": {
-          "type": "column",
+        "row_XAd8qd": {
+          "type": "row",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/slideshow-3.jpg",
+            "caption": "",
+            "heading": "Croffles Pantry",
+            "text": "<p><br/>The Chamomile's Croffle Pantry is a delightful assortment of crispy, golden croffles that combine the best of croissants and waffles.  offering a perfect balance of flaky layers and a satisfying crunch. every bite is a unique flavor experience.<br/><br/></p>",
+            "button_label": "See More",
+            "button_link": "shopify://collections/croffles-collection"
           }
         },
-        "column3": {
-          "type": "column",
+        "row_AnK7Jg": {
+          "type": "row",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/slideshow-4.jpg",
+            "caption": "",
+            "heading": "Bento Cheesecakes",
+            "text": "<p><br/>The Chamomile's Bento Cheesecake is a charming assortment of bite-sized cheesecakes,  packed into convenient bento boxes. every bento box is filled with creamy indulgence with unique flavor combinations, these mini cheesecakes are a delightful treat for any occasion. <br/><br/></p>",
+            "button_label": "See more",
+            "button_link": "shopify://collections/bento-cheesecakes"
           }
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "row_iqHGQN",
+        "row_XAd8qd",
+        "row_AnK7Jg"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "image_height": "large",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h0",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "navbar-scheme",
+        "row_color_scheme": "navbar-scheme",
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     }
   },
   "order": [
-    "image_banner_kJ9wFV",
+    "slideshow_kz4h9E",
     "featured_collection",
-    "multicolumn_GiXzGh",
+    "featured_collection_eDTHHK",
     "collage",
-    "video",
-    "multicolumn"
+    "rich_text_DEXCeQ",
+    "multicolumn_GiXzGh",
+    "rich_text_FncpmA",
+    "multirow_ne8apr"
   ]
 }

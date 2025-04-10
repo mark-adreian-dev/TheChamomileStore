@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "dwadaw",
+            "text": "Welcome to The Chamomile enjoy your break with us!",
             "link": ""
           }
         }
@@ -28,7 +28,7 @@
       "settings": {
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "color_scheme": "",
+        "color_scheme": "scheme-815d8e7d-502e-42cc-b113-915cd4dd6cfe",
         "show_line_separator": true,
         "show_social": false,
         "enable_country_selector": false,
@@ -41,7 +41,7 @@
         "logo_position": "middle-center",
         "mobile_logo_position": "center",
         "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
+        "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
         "color_scheme": "scheme-1",

@@ -13,12 +13,13 @@
     "logo_width": 50,
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
-    "type_body_font": "assistant_n4",
+    "type_body_font": "poppins_n4",
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 0,
-    "spacing_grid_horizontal": 8,
-    "spacing_grid_vertical": 8,
+    "spacing_grid_horizontal": 20,
+    "spacing_grid_vertical": 20,
+    "animations_reveal_on_scroll": true,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 0,
@@ -35,7 +36,7 @@
     "variant_pills_shadow_blur": 5,
     "inputs_border_thickness": 1,
     "inputs_border_opacity": 55,
-    "inputs_radius": 0,
+    "inputs_radius": 8,
     "inputs_shadow_opacity": 0,
     "inputs_shadow_horizontal_offset": 0,
     "inputs_shadow_vertical_offset": 4,
@@ -74,14 +75,14 @@
     "blog_card_shadow_vertical_offset": 4,
     "blog_card_shadow_blur": 5,
     "text_boxes_border_thickness": 0,
-    "text_boxes_border_opacity": 10,
+    "text_boxes_border_opacity": 0,
     "text_boxes_radius": 0,
     "text_boxes_shadow_opacity": 0,
     "text_boxes_shadow_horizontal_offset": 0,
     "text_boxes_shadow_vertical_offset": 4,
     "text_boxes_shadow_blur": 5,
-    "media_border_thickness": 1,
-    "media_border_opacity": 5,
+    "media_border_thickness": 0,
+    "media_border_opacity": 0,
     "media_radius": 0,
     "media_shadow_opacity": 0,
     "media_shadow_horizontal_offset": 0,
@@ -101,11 +102,11 @@
     "drawer_shadow_vertical_offset": 4,
     "drawer_shadow_blur": 5,
     "badge_position": "bottom left",
-    "badge_corner_radius": 40,
+    "badge_corner_radius": 0,
     "sale_badge_color_scheme": "scheme-5",
     "sold_out_badge_color_scheme": "scheme-3",
-    "social_facebook_link": "",
-    "social_instagram_link": "",
+    "social_facebook_link": "https://www.facebook.com/profile.php?id=61562597468730",
+    "social_instagram_link": "https://www.instagram.com/thechamomile.ph?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
     "social_youtube_link": "",
     "social_tiktok_link": "",
     "social_twitter_link": "",
@@ -116,11 +117,12 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "currency_code_enabled": true,
+    "currency_code_enabled": false,
     "cart_type": "notification",
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
+    "cart_color_scheme": "scheme-5acceffd-8f4b-4c70-929e-5fba6861d9c7",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -142,10 +144,10 @@
           "background": "#12372a",
           "background_gradient": "",
           "text": "#e3b15a",
-          "button": "#121212",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
-          "shadow": "#121212"
+          "button": "#e3b15a",
+          "button_label": "#12372a",
+          "secondary_button_label": "#e3b15a",
+          "shadow": "#e3b15a"
         }
       },
       "scheme-730b387f-0ae5-4059-8897-b9dfe8bbdf29": {
@@ -157,6 +159,28 @@
           "button_label": "#ffffff",
           "secondary_button_label": "#121212",
           "shadow": "#121212"
+        }
+      },
+      "scheme-815d8e7d-502e-42cc-b113-915cd4dd6cfe": {
+        "settings": {
+          "background": "#e3b15a",
+          "background_gradient": "",
+          "text": "#12372a",
+          "button": "#121212",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#121212",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-5acceffd-8f4b-4c70-929e-5fba6861d9c7": {
+        "settings": {
+          "background": "#12372a",
+          "background_gradient": "",
+          "text": "#e3b15a",
+          "button": "#e3b15a",
+          "button_label": "#12372a",
+          "secondary_button_label": "#e3b15a",
+          "shadow": "#e3b15a"
         }
       }
     }

@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-branding-yellow: #e3b15a;
+  --color-branding-green: #12372a;
+  --breakpoint-desktop: 990px;
+  --breakpoint-tablet:750px;
+  --breakpoint-large:1220px;
+}
+
+@font-face {
+  font-family: 'Casanova Font';
+  src: url('https://cdn.shopify.com/s/files/1/0701/3279/3512/files/Casanova_Font_Free.ttf?v=1744198115')
+    format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Casanova Font', sans-serif !important;
+}
+
+li .header-nav-link:hover {
+  text-decoration: none !important;
+}
